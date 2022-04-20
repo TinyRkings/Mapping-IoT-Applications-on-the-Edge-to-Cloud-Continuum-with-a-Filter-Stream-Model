@@ -1,1 +1,5 @@
+module load python/3.6-conda5.2 
 
+cd Simulator_NS3/ns-allinone-3.30.1/ns-3.30.1/
+
+./waf --run scratch/modifiedTSM/modifiedTSM
